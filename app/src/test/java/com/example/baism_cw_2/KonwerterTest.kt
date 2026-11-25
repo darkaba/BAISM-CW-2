@@ -10,7 +10,7 @@ class KonwerterWalutTest {
     @Test
     fun testPlnNaEuro() {
         val wynik = konwerter.plnNaEuro(43.0)
-        assertEquals(10.0, wynik, 0.01)
+        assertEquals(100.0, wynik, 0.01)
     }
 
     @Test
